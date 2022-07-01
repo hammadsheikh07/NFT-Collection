@@ -379,9 +379,11 @@ export default function Home() {
           <img className={styles.image} src="./cryptodevs/0.svg" />
         </div>
       </div>
-
+      <div className={styles.link}>
+        <a href="https://whitelist-dapp-somophore.vercel.app/" >Add yourself on whitelist click here</a>
+      </div>
       <footer className={styles.footer}>
-        Made with &#10084; by Crypto Devs
+        Made with &#10084; by Crypto Devs Hammad Shahid
       </footer>
     </div>
   );
